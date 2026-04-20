@@ -1,0 +1,28 @@
+//EJERCICIO 2
+data class UserAccount(val uuid: String, var email: String, var balance: Double) {
+}
+
+fun main() {
+   val usuario1 = UserAccount(
+        "Agus",
+        "ejemplo1@hotmail.com",
+        200.0
+    )
+   val usuario2 = UserAccount(
+        "Ale",
+        "ejemplo2@hotmail.com",
+        200.0
+    )
+   
+   //Usando Getters
+   println("uuid del \"usuario1\": ${usuario1.uuid}")
+   //Usando toString
+   println("toString del \"usuario1\": $usuario1")
+   
+   val sonIguales = usuario1 == usuario2
+   println("Las instancias son iguales: $sonIguales")
+   
+   //Usando HashCode
+   println("Hashcode de p1: ${usuario1.hashCode()}")
+
+}

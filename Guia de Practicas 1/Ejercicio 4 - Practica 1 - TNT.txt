@@ -1,0 +1,78 @@
+//EJERCICIO 4
+
+//Extensión Functions
+fun Int.esPar(): Boolean {
+    return this % 2 == 0
+}
+
+fun Int.esPrimo(): Boolean {
+    if (num <= 1) return false
+    for (i in 2..num / 2) {
+        if (num % i == 0) return false
+    }
+    return true
+}
+
+//Standar Functions
+class Coche {
+    var marca: String = ""
+    var modelo: String = ""
+    var caballosDeFuerza: Int = 0
+    var esElectrico: Boolean = false
+  
+}
+
+data class Transaccion(val categoria: String, val monto: Double)
+
+
+fun main() {
+   //Extensión Functions
+   var numero = 37;
+   println(numero.esPar())
+   println(numero.esPrimo())
+   
+   
+   //Stándar Functions
+    val miCoche = Auto().apply {
+        marca = "Fiat"
+        modelo = "600"
+        caballosDeFuerza = 300
+        esElectrico = false
+        
+    }
+
+    println("Coche configurado: ${miCoche.marca} ${miCoche.modelo}")
+
+    //Collections API
+    //A)
+    val numeros = (1..20).toList()
+    val cuadradosDeMultiplosDe3 = numeros
+        .filter { it % 3 == 0 }           // Filtra: [3, 6, 9, 12, 15, 18]
+        .map { it * it }                  // Transforma: [9, 36, 81, 144, 225, 324]
+
+    println("Resultado A: $cuadradosDeMultiplosDe3")
+    
+    //B)
+    val movimientos = listOf(
+        Transaccion("Comida", 150.0),
+        Transaccion("Transporte", 50.0),
+        Transaccion("Comida", 120.0),
+        Transaccion("Entretenimiento", 200.0),
+        Transaccion("Transporte", 110.0),
+        Transaccion("Entretenimiento", 80.0)
+    )
+
+    // Procesamiento en cadena
+    val resultados = movimientos
+        .filter { it.monto > 100.0 }                 // montos > $100.0
+        .groupBy { it.categoria }                    // Crea un Map<String, List<Transaccion>>
+        .mapValues { (_, transacciones) ->           // Mapea solo los valores (las listas)
+            transacciones.map { it.monto }.average() // Obtiene el promedio de montos
+        }
+
+    println("--- Resultado de Gastos (Promedio por Categoría) ---")
+    resultado.forEach { (cat, prom) -> 
+        println("Categoría: $cat | Promedio: $$prom") 
+    }
+    
+}

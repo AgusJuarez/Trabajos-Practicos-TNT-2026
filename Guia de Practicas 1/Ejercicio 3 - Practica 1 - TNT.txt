@@ -1,0 +1,18 @@
+//EJERCICIO 3
+fun sumarMontos(montos: List<Double?>): Double {
+    var total = 0.0
+    for (monto in montos) {
+        total += monto ?: 0.0
+    }
+    return total
+    
+    // Se puede llegar a usar sumOf para iterar y el operador Elvis ?: para convertir nulls a 0.0
+    //return montos.sumOf { it ?: 0.0 }
+}
+
+
+fun main() {
+ val transacciones: List<Double?> = listOf(10.5, null, 20.0, null, 5.25)
+   val total = sumarMontos(transacciones)
+   println("Total: $total") // Salida: Total: 35.75
+}
