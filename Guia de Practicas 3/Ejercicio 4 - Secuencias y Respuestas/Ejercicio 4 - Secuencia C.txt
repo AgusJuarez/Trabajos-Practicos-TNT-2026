@@ -1,0 +1,7 @@
+2026-04-21 11:39:49.574  6113-6113  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onCreate
+2026-04-21 11:39:49.681  6113-6113  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStart
+2026-04-21 11:39:49.685  6113-6113  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onResume
+2026-04-21 11:40:08.263  6113-6113  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onPause
+2026-04-21 11:40:08.966  6113-6113  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStop
+2026-04-21 11:40:29.134  6113-6113  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStart
+2026-04-21 11:40:29.141  6113-6113  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onResume

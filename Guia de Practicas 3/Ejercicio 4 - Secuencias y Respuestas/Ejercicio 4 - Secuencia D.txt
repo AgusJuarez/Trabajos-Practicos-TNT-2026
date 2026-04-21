@@ -1,0 +1,9 @@
+2026-04-21 11:41:39.785  7185-7185  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onCreate
+2026-04-21 11:41:39.889  7185-7185  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStart
+2026-04-21 11:41:39.892  7185-7185  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onResume
+2026-04-21 11:41:49.969  7185-7185  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onPause
+2026-04-21 11:41:49.975  7185-7185  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStop
+2026-04-21 11:41:49.982  7185-7185  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onDestroy
+2026-04-21 11:41:50.068  7185-7185  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onCreate
+2026-04-21 11:41:50.096  7185-7185  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStart
+2026-04-21 11:41:50.099  7185-7185  Ciclo de Vida           com.example.guiapractica3            D  Dentro del onResume

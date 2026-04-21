@@ -1,0 +1,11 @@
+1. ¿Cuáles fueron las diferencias en el ciclo de vida observadas entre el intento
+de salida de la app con el gesto "Atrás" (Secuencia B) en comparación con
+interrumpirla temporalmente pulsando "Inicio" (Secuencia A)? ¿Se destruyó la
+actividad en ambos casos?
+	Una de las diferencias encontradas es que en la secuencia A se observa que se llama nuevamente al modulo onStart al regresar a la aplicación. 
+	En el caso de la secuencia B, se puede observar que al salir de la aplicación con el botón de 'Atras', la misma se destruye
+2. Observando los registros de la Secuencia D, ¿Por qué creen que el sistema
+operativo decide "remover" abruptamente la aplicación y luego recrearla
+completa al rotar la pantalla, a pesar de que como usuarios nunca salimos de
+ella?
+	Creemos que se hace de esta manera por la configuración que se le da inicialmente a la aplicación en la pantalla al lanzarla y que luego de rotar la pantalla, esta debe comportarse de manera diferente y formatear todos los objetos que esten dentro acorde al tamaño de la "nueva pantalla" (la pantalla rotada).

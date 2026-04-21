@@ -1,0 +1,30 @@
+2026-04-21 11:58:52.504 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onCreate
+2026-04-21 11:58:52.606 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStart
+2026-04-21 11:58:52.609 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Estado: onResume ejecutándose - Resurrección número: 1
+2026-04-21 11:58:52.610 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onResume
+2026-04-21 11:58:59.496 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onPause
+2026-04-21 11:58:59.998 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStop
+2026-04-21 11:59:01.083 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStart
+2026-04-21 11:59:01.087 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Estado: onResume ejecutándose - Resurrección número: 2
+2026-04-21 11:59:01.087 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onResume
+2026-04-21 11:59:11.852 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onPause
+2026-04-21 11:59:12.544 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStop
+2026-04-21 11:59:12.551 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onDestroy
+2026-04-21 11:59:15.466 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onCreate
+2026-04-21 11:59:15.493 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStart
+2026-04-21 11:59:15.495 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Estado: onResume ejecutándose - Resurrección número: 3
+2026-04-21 11:59:15.495 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onResume
+2026-04-21 11:59:20.428 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onPause
+2026-04-21 11:59:21.187 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStop
+2026-04-21 11:59:21.192 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onDestroy
+2026-04-21 11:59:30.366 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onCreate
+2026-04-21 11:59:30.390 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStart
+2026-04-21 11:59:30.392 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Estado: onResume ejecutándose - Resurrección número: 4
+2026-04-21 11:59:30.392 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onResume
+2026-04-21 11:59:45.810 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onPause
+2026-04-21 11:59:45.824 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStop
+2026-04-21 11:59:45.829 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onDestroy
+2026-04-21 11:59:45.898 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onCreate
+2026-04-21 11:59:45.942 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onStart
+2026-04-21 11:59:45.945 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Estado: onResume ejecutándose - Resurrección número: 5
+2026-04-21 11:59:45.945 10516-10516 Ciclo de Vida           com.example.guiapractica3            D  Dentro del onResume

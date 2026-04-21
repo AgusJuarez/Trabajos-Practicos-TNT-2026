@@ -8,9 +8,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+
+var contadorVidas = 0
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.d("Ciclo de Vida", "Dentro del onCreate")
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -37,6 +40,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
+        contadorVidas++
+        Log.d("Ciclo de Vida", "Estado: onResume ejecutándose - Resurrección número: $contadorVidas")
         Log.d("Ciclo de Vida", "Dentro del onResume")
     }
 
