@@ -118,7 +118,7 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-    
+
 
     private fun shareText(message: String) {
         val sendIntent = Intent().apply {
