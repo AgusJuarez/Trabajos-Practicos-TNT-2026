@@ -3,4 +3,11 @@
     <string name="texto_a_compartir">Escribe algo para compartir...</string>
     <string name="boton_compartir">Compartir</string>
     <string name="uri_a_navegar">Escribe la URI o URL...</string>
+    <string name="abrir_marcador">Abrir Marcador</string>
+    <string name="abrir_navegador">Abrir Navegador</string>
+    <string name="ver_en_mapa">Ver en Mapa</string>
+    <string name="tomar_foto">Tomar Foto</string>
+    <string name="lugar_mapa">Ciudad o dirección para el mapa</string>
+    <string name="numero_telefono">Número de teléfono</string>
+    <string name="previsualizacion_foto">Previsualización de foto</string>
 </resources>

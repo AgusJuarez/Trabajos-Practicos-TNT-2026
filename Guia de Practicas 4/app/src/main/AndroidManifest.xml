@@ -5,13 +5,25 @@
     <queries>
         <intent>
             <action android:name="android.intent.action.SEND" />
+
             <data android:mimeType="text/plain" />
         </intent>
-
         <intent>
             <action android:name="android.intent.action.VIEW" />
+
             <category android:name="android.intent.category.BROWSABLE" />
+
             <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data android:scheme="geo" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL" />
+
+            <data android:scheme="tel" />
         </intent>
     </queries>
 
@@ -24,6 +36,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
